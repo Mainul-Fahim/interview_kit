@@ -1,12 +1,16 @@
 import React from 'react';
-import Tips from '../Tips/Tips';
-import '../Tips/tips.css'
+import Banner from '../Banner/Banner';
+import Header from '../Header/Header';
+import Video from '../Video/Video';
 
 const Home = () => {
     return (
-        <>
-           <Tips/>
-        </>
+        <div>
+            <Header></Header>
+            <Banner></Banner>
+            <Video></Video>
+            {/* Update */}
+        </div>
     );
 };
 
