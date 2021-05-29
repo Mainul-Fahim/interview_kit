@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Header from '../Header/Header';
+import InterviewCard from '../InterviewCard/InterviewCard';
 import Video from '../Video/Video';
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Video></Video>
-            {/* Update */}
+            <InterviewCard></InterviewCard>
         </div>
     );
 };
