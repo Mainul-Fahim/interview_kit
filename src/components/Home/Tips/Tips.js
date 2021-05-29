@@ -1,6 +1,7 @@
 import React from 'react';
 import tipsData from '../../../fakeData/tipsData';
 import TipsCard from './TipsCard';
+import  './tips.css';
 
 const Tips = () => {
     return (
