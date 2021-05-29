@@ -9,7 +9,7 @@ const Banner = () => {
                 <p className="text-secondary">We are providing interview related questions and answer for make your life easier.</p>
                 <button style={{ height: '60px', width: '200px' }}  className="btn btn-success rounded-pill"><b>Explore Questions</b></button>
             </div>
-            <div className="col-md-6 ml-auto">
+            <div className="col-md-6 ms-auto">
                 <img src={interview} alt="" className="img-fluid w-75 "/>
             </div>
         </main>
