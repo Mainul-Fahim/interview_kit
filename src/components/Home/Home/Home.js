@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Tips from '../Tips/Tips';
 import InterviewCard from '../InterviewCard/InterviewCard';
 import Video from '../Video/Video';
+import OurTeam from '../OurTeam/OurTeam';
 
 
 const Home = () => {
