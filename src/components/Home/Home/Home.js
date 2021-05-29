@@ -1,15 +1,15 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
-import Header from '../Header/Header';
-import Video from '../Video/Video';
+// import OurTeam from '../OurTeam/OurTeam';
+import OurTeams from '../OurTeam/OurTeams';
+import Tips from '../Tips/Tips';
+import '../Tips/tips.css'
 
 const Home = () => {
     return (
-        <div>
-            <Header></Header>
-            <Banner></Banner>
-            <Video></Video>
-        </div>
+        <>
+           <Tips/>
+           <OurTeams/>
+        </>
     );
 };
 
