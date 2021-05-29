@@ -9,7 +9,6 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Video></Video>
-            {/* Update */}
         </div>
     );
 };
