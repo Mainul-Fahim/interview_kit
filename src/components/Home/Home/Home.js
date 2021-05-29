@@ -1,10 +1,12 @@
 import React from 'react';
+import Tips from '../Tips/Tips';
+import '../Tips/tips.css'
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is Home Bhaiaa</h1>
-        </div>
+        <>
+           <Tips/>
+        </>
     );
 };
 
