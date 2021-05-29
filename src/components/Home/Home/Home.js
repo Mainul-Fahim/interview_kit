@@ -1,9 +1,10 @@
 import React from 'react';
+import InterviewCard from '../InterviewCard/InterviewCard';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is Home Bhaiaa</h1>
+            <InterviewCard></InterviewCard>
         </div>
     );
 };
