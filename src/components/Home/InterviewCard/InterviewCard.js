@@ -1,8 +1,8 @@
 import React from 'react';
 import InterviewDetail from '../InterviewDetail/InterviewDetail';
-import Html from '../../../images/html.png';
-import javascript from '../../../images/javascript.jpg';
-import react from '../../../images/react4.jpg';
+import Html from '../../../Images/html.png';
+import javascript from '../../../Images/javascript.jpg';
+import react from '../../../Images/react4.jpg';
 
 const interviewData = [
     {
