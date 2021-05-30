@@ -4,7 +4,7 @@ import { Button, Nav, Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">INTERVIEW KIT</Navbar.Brand>
+            <Navbar.Brand href="#home" className="px-4">INTERVIEW KIT</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto p-2">

@@ -1,5 +1,5 @@
 import React from "react";
-
+import './tips.css';
 const TipsCard = ({ data }) => {
   return (
     <div className="tipsCard">
