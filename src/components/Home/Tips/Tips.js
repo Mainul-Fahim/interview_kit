@@ -4,7 +4,7 @@ import TipsCard from "./TipsCard";
 
 const Tips = () => {
   return (
-    <div className="container-fluid my-5">
+    <div className="container-fluid my-5" id="tips">
       <h2 className="section_title text-center">
         Tips and Tricks
       </h2>

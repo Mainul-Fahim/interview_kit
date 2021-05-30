@@ -1,0 +1,11 @@
+#videos{
+    margin: 2rem 0;
+    padding: 4rem;
+}
+
+.video-image{
+    padding-right: -5rem;
+}
+.iframe{
+    padding-left: 60px;
+}

@@ -1,0 +1,91 @@
+.Nav {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom:1px solid #f5f5f5; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition: all 0.6s ease-in;
+}
+/* nav-brand  */
+.nav-brand {
+  font-family: "Lobster", cursive;
+  font-family: "Pattaya", sans-serif;
+}
+/* user profile  */
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+.user-profile > small {
+  font-family: cursive;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.user-profile > img {
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+
+  cursor: pointer;
+}
+
+.Nav .nav-brand img {
+  height: 90%;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+  /* padding: .5rem; */
+  border: #5998ac solid 2px;
+}
+
+/* .nav-link{
+       display: flex;     
+       align-items: center;
+   } */
+.nav-link {
+  font-weight: 500;
+ 
+  color: darkslategray !important;
+}
+/* when scroll this link color active */
+.nav-link-color {
+  color: #000c22 !important;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
+.nav-white {
+  background-color: #ffffff;
+  box-shadow: -1px 1px 1px rgba(26, 24, 24, 0.37);
+
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signin-btn,
+.signup-btn {
+  background: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 333px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 8px 16px;
+  margin: 0 0.5rem;
+  color: #000000;
+}

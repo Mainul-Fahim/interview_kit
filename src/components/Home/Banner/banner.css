@@ -1,0 +1,11 @@
+.hero{
+    margin: 5rem 0;
+}
+.hero-content{
+    margin-top: 5rem;
+    text-align: justify;
+    padding-left: 50px;
+}
+.hero-Image>img{
+    height: 600px;
+}
