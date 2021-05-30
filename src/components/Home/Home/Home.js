@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import Tips from '../Tips/Tips';
 import InterviewCard from '../InterviewCard/InterviewCard';
 import Video from '../Video/Video';
-import OurTeam from '../OurTeam/OurTeam';
+import HtmlCard from '../HtmlCard/HtmlCard';
 
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
             <InterviewCard></InterviewCard>
             <Video></Video>
             <Tips></Tips>
+            <HtmlCard></HtmlCard>
         </div>
     );
 };
