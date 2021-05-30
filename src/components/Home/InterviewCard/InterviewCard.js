@@ -2,6 +2,7 @@ import React from "react";
 import InterviewDetail from "../InterviewDetail/InterviewDetail";
 import Html from "../../../Images/html.png";
 import javascript from "../../../Images/javascript.jpg";
+import '../Home/Home.css'
 import react from "../../../Images/react4.jpg";
 
 const interviewData = [
@@ -45,7 +46,7 @@ const InterviewCard = () => {
     <section id="questions">
       <div className="text-center mt-4">
         {/* <h5>Our Services</h5> */}
-        <h2>Interview Questions</h2>
+        <h2 className="section_title">Interview Questions</h2>
       </div>
       <div className="d-flex justify-content-center">
         <div className="w-75 row mt-3 pt-5">

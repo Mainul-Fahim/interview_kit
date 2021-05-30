@@ -16,9 +16,7 @@ const Banner = () => {
             </h1>
             <p className="text-secondary">
               We are providing interview related questions and answer for make
-              your life easier. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Quis numquam voluptatibus repellat voluptates
-              nobis optio excepturi eius id aut enim.
+              your life easier. The goal of an interview is to determine whether the candidate will be outstanding in the job, and that means evaluating the skills and attitude required for that job. Does she need to be an empathetic leader? Ask about that. Does she need to take your company public? Ask about that.
             </p>
             <button
               style={{ height: "60px", width: "200px" }}

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home/Home/Home";
-import Error from "./components/Error/Error";
+// import Error from "./components/Error/Error";
 import Login from "./components/Login/Login";
 import { useSelector } from "react-redux";
 import { selectUserEmail } from "./Redux/userSlice";

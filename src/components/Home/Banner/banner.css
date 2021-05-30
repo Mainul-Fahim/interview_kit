@@ -8,4 +8,12 @@
 }
 .hero-Image>img{
     height: 600px;
+    width: 100%;
+}
+
+@media (max-width:550px){
+.hero-Image{
+    height: 100%;
+    width: 300px;
+}
 }
