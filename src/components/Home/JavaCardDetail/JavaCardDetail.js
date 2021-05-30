@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HtmlDetail = ({ detail }) => {
+const JavaCardDetail = ({detail}) => {
     return (
         <div class="card m-3" style={{width: "18rem"}}>
             <img src={detail.image} class="card-img-top" alt="..."/>
@@ -13,4 +13,4 @@ const HtmlDetail = ({ detail }) => {
     );
 };
 
-export default HtmlDetail;
+export default JavaCardDetail;

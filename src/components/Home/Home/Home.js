@@ -1,10 +1,14 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Header from '../Header/Header';
-import Tips from '../Tips/Tips';
 import InterviewCard from '../InterviewCard/InterviewCard';
 import Video from '../Video/Video';
 import HtmlCard from '../HtmlCard/HtmlCard';
+import OurTeams from '../OurTeam/OurTeams';
+import Tips from '../Tips/Tips';
+import '../Tips/tips.css'
+import JavaScriptCard from '../JavaScriptCard/JavaScriptCard';
+
 
 
 const Home = () => {
@@ -14,10 +18,12 @@ const Home = () => {
             <Banner></Banner>
             <InterviewCard></InterviewCard>
             <Video></Video>
-            <Tips></Tips>
+            <Tips/>
+            <OurTeams/>
             <HtmlCard></HtmlCard>
+            <JavaScriptCard></JavaScriptCard>
         </div>
-    );
-};
 
+    );
+    }
 export default Home;

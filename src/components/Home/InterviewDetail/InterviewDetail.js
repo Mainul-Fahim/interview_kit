@@ -8,7 +8,7 @@ const InterviewDetail = ({detail}) => {
             <div class="card-body">
                 <h5 class="card-title">{detail.name}</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Let's Go</a>
+                <a href="#htmlCard" class="btn btn-primary">Let's Go</a>
             </div>
         </div>
         </div>
