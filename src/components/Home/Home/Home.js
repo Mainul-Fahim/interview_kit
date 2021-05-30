@@ -14,6 +14,7 @@ import OurTeams from '../OurTeam/OurTeams';
 import Tips from '../Tips/Tips';
 import '../Tips/tips.css'
 import JavaScriptCard from '../JavaScriptCard/JavaScriptCard';
+import ReactCard from '../ReactCard/ReactCard';
 
 
 
@@ -29,6 +30,7 @@ const Home = () => {
             <OurTeams/>
             <HtmlCard></HtmlCard>
             <JavaScriptCard></JavaScriptCard>
+            <ReactCard></ReactCard>
         </div>
 
 
