@@ -3,20 +3,27 @@ import Banner from '../Banner/Banner';
 import Header from '../Header/Header';
 import InterviewCard from '../InterviewCard/InterviewCard';
 import Video from '../Video/Video';
-import Tips from '../Tips/Tips';
+import HtmlCard from '../HtmlCard/HtmlCard';
 import OurTeams from '../OurTeam/OurTeams';
+import Tips from '../Tips/Tips';
+import '../Tips/tips.css'
+import JavaScriptCard from '../JavaScriptCard/JavaScriptCard';
+
+
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
             <Banner></Banner>
-            <Video></Video>
             <InterviewCard></InterviewCard>
-            <Tips></Tips>
-            <OurTeams></OurTeams>
+            <Video></Video>
+            <Tips/>
+            <OurTeams/>
+            <HtmlCard></HtmlCard>
+            <JavaScriptCard></JavaScriptCard>
         </div>
-    );
-};
 
+    );
+    }
 export default Home;
